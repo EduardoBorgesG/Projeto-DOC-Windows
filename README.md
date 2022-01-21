@@ -36,3 +36,14 @@ CREATE TABLE IF NOT EXISTS casamento(
     data_registro DATE,
     data_casamento DATE);
     
+    
+    CREATE TABLE IF NOT EXISTS obito2(
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        nome_falecido VARCHAR(80),
+        data_nascimento_f DATE,
+        nome_mae VARCHAR(80),
+        data_nascimento_mae DATE,
+        nome_pai VARCHAR(80),
+        data_nascimento_pai DATE,
+        data_registro DATE,
+        data_obito DATE);
