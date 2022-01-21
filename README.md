@@ -1,7 +1,8 @@
 # Projeto-DOC-Windows
 Projeto DOC-Windows
 Para criar o banco de dados na qual foi usado nesse código efetue o seguinte script:
-CREATE TABLE IF NOT EXISTS nascimento (
+
+    CREATE TABLE IF NOT EXISTS nascimento (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome_registrado VARCHAR(80),
     data_nascimento_registrado DATE,
@@ -13,7 +14,7 @@ CREATE TABLE IF NOT EXISTS nascimento (
     cpf_pai VARCHAR(50),
     data_nascimento_pai DATE);
     
-CREATE TABLE IF NOT EXISTS casamento(
+    CREATE TABLE IF NOT EXISTS casamento(
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome_c1 VARCHAR(80),
     data_nascimento_c1 DATE,
@@ -35,7 +36,6 @@ CREATE TABLE IF NOT EXISTS casamento(
     cpf_c2_pai VARCHAR(30),
     data_registro DATE,
     data_casamento DATE);
-    
     
     CREATE TABLE IF NOT EXISTS obito2(
         id INT AUTO_INCREMENT PRIMARY KEY,
